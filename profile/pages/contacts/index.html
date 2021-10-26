@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/contact.css">
+</head>
+<body>
+    <div id="container">
+        <div id="add_container">
+            <!-- profile photo  -->
+            <!--<div id="profile_photo"></div>-->
+            <!-- add contect section -->
+            <div id="add_contact_section">
+                <h1>Private Contacts</h1>
+                <div id="add_contact_form">
+                    <form action="#" id="add_data">
+                        <input type="text" name="" id="full_name" placeholder="Fullname"><br><br>
+                        <input type="number" name="" id="p_number" placeholder="Primary Number" pattern="{10}"><br><br>
+                        <input type="number" name="" id="s_number" placeholder="Secondary Number"><br><br>
+                        <span id="notice" style="display: none;">Succesfulli Added!</span><input type="button" value="Add" onclick="addContacts()">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="contact_container">
+            <h2>Contacts List</h2><br>
+            <input type="search" name="" id="" placeholder="Search hear..."><br><br>
+            <div id="contact_name">
+                
+                <!-- <fieldset>
+                    <legend>Susanta Adak</legend><br>
+                    <p>1.+91 8670214067</p><br>
+                    <p>1.+91 9883185493</p>
+                    <i class="fa fa-trash-o" style="font-size:25px;"></i>
+                </fieldset> -->
+                
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>

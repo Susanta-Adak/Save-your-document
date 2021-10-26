@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <link rel="stylesheet" href="style/profile.css"> 
+    <link rel="stylesheet" href="style/main_profile.css">
+</head>
+<body>
+    <div id="mainpage">
+    <div id="container">
+        <section id="section1">
+            
+        </section>
+        <section id="section2">
+            <div id="profile_photo">
+                <p id="upload_icon">upload</p>
+                <input type="file" accept="image/*" name="photo" id="file_name" onchange="upload_pic()">
+            </div>
+            <h1 id="prof_name"></h1>
+            <i class="fa fa-forward" aria-hidden="true" id="next"></i>
+        </section>
+    </div>
+</div>
+
+<!-- main profile page -->
+<div id="profile_page">
+    <section id="section_1">
+        <h1 id="profile_name">Susanta Adak</h1>
+        <div id="pic"></div>
+    </section>
+    <section id="section_2">
+        <div id="manu"></div>
+        <div id="manu"></div>
+        <div id="manu"></div>
+        <div id="manu"></div>
+        <div id="manu" onclick="log_out()">logout</div>
+
+    </section>
+    <section id="section_3">
+        <h2 id="wait">Please wait.....</h2>
+    </section>
+</div>
+    <script src="js/profile.js"></script>
+    <script src="js/main_profile.js"></script>
+</body>
+</html>
